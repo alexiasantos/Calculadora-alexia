@@ -1,0 +1,157 @@
+.card {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    width: 22vw;
+    height: 80vh;
+    background: #1C1C1C;
+    border-radius: 15px 15px 5px 5px;
+    border-style: solid;
+    border-color: #C0C0C0;
+    border-width: 1px 1px 1px 1px;
+    justify-content: stretch;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+.display {
+    height: 10vh;
+    width: 18vw;
+    margin: 0 auto;
+    margin-top: 26px;
+    background-color: #666600;
+    border-radius: 6px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: #C0C0C0;
+
+}
+
+#botoes-conjunto {
+
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+#button {
+    height: 5vh;
+    width: 4vw;
+    border-radius: 6px;
+    border-width: 2px 4px;
+    border-color: #C0C0C0;
+    font-family: 'digital-clock-font';
+    font-size: 20px;
+    text-decoration: solid;
+    color: white;
+    background-color: black;
+    margin-left: 8px;
+    margin-right: 2px;
+    margin-top: 25px;
+
+
+}
+
+
+
+.btn-AC,
+.btn-CE {
+    background-color: #800000 !important;
+}
+
+.btn-0 {
+    width: 9.2vw !important;
+}
+
+.btn-mais,
+.btn-menos,
+.btn-divisao,
+.btn-porcento,
+.btn-vezes {
+    background-color: orange !important;
+}
+
+@font-face {
+    font-family: 'digital-clock-font';
+    src: url('fonte/digital-7.ttf');
+}
+
+#date {
+    border: none;
+    font-family: 'digital-clock-font';
+    color: black !important;
+    background-color: #666600;
+    font-size: 14px;
+    display: block;
+    width: 75px;
+
+}
+
+#marca {
+    width: 5vw;
+    margin-top: 30px;
+    margin-left: 8.8vw;
+    font-family: 'digital-clock-font';
+    color: white;
+    background: #1C1C1C;
+    border: none;
+    font-size: 1.5vw;
+    display: block;
+}
+
+#display {
+    width: 10vw;
+    font-family: 'digital-clock-font';
+    font-size: 40px;
+    color: black;
+    background-color: #666600;
+    border: none;
+    display: block;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:760px) {
+    #button {
+        font-size: 22px;
+        margin-left: 19px;
+        height: 7vh;
+        width: 14vw;
+    }
+
+    .box {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .card {
+        width: 100vw;
+        height: 115vh;
+    }
+
+    .display {
+        height: 15vh;
+        width: 67vw;
+        margin-left: 28px;
+    }
+
+    .btn-0 {
+        width: 31.7vw !important;
+
+    }
+
+    #date {
+        font-size: 20px;
+    }
+
+}
